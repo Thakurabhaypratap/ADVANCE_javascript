@@ -30,7 +30,7 @@
 
 
 
-// **************** queryselector / queryselectorAoll ************
+// **************** queryselector / queryselectorAoll ***********
 
 // const aa = document.getElementById('queryid')
 // // undefined   //***** output  */

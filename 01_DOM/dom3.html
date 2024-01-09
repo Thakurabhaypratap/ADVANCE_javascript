@@ -28,10 +28,40 @@
 
 <script>
 
+    const parent = document.querySelector('.week')
+    console.log(parent);
+    console.log(parent.children) //array return with all children value htmlcollection
+    const sty = parent.children[1].style.color = 'red'
+    const cc = document.querySelectorAll('.day')  //nodelist arry
+    console.log(cc)
+    console.log(cc[1].innerHTML);
+
+    for(i =0; i<cc.length; i++){
+        console.log(cc[i].innerHTML)
+    };
+
+    const dd = (parent.childNodes);
+    console.log(dd);
+    console.log(parent.childNodes);
+
+
+
+
+    const div  = document.createElement('div')
+    console.log(div)
+    div.innerText = "this div and txt created by js"
+    document.body.appendChild(div)
+    div.className = "clsss"
+    div.setAttribute('titlee' , 'thakur_abhay_creator')
+    div.style.backgroundColor = "green"
+    div.id = Math.round(Math.random()*10)
+    console.log(div.id)
     
-
-
-
+    //const xxx = document.getElementsByClassName("clsss")
+    //console.log(xxx)
+    
+    
+    
 
 
 
